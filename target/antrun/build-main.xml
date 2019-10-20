@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Using env.test.properties</echo>
+  <copy file="Data/index.html" tofile="/tmp/var/www/html/cars/index.html"/>
+</target>
+</project>
